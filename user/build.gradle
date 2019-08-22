@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'com.zzzkvidi4'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'io.vertx:vertx-core:3.8.0'
+    implementation 'io.vertx:vertx-hazelcast:3.8.0'
+    testImplementation 'junit:junit:4.12'
+}
